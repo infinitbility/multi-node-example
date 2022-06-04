@@ -1,0 +1,21 @@
+{
+  "name": "multi-node-example",
+  "version": "1.0.0",
+  "description": "Example of multi node setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red" : {
+    "nodes": {
+        "lower-case": "lower-case/lower-case.js",
+        "upper-case": "upper-case/upper-case.js"
+    }
+  },
+  "keywords": [
+    "Node-red",
+    "Multi-node"
+  ],
+  "author": "Infinitbility",
+  "license": "MIT"
+}
